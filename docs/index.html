@@ -10,9 +10,11 @@
     <h1>保健師の方々を対象とした</br>コロナ禍のメディア報道と働き方に関する調査</h1>
     <p class="ex1">本調査は、福島県立医科大学の小林智之と医療創生大学の吉田和樹が行うものです。</br>
 
-新型コロナウイルスの感染拡大により、健康問題の他にも、働き方やメディア報道の在り方といった様々なことが問題となっております。本調査は、メディア報道が保健医療従事者に注目する中、日々ご活躍の保健師の皆様が業務に対してどのような気持ちや印象を抱いているのかについてお尋ねします。</br>全国の保健師の方々を対象に、回答者の方々に本アンケートをご紹介いただきながら配布されています。そのため、同じ方に複数回届く可能性がございますこと、あらかじめお詫び申し上げます。</br>本調査の結果は、保健師の方々にとっての安全で充実した職場を考える大切な基礎資料とします。</br>ご協力の程よろしくお願いいたします。</p>
+新型コロナウイルスの感染拡大により、健康問題の他にも、働き方やメディア報道の在り方といった様々なことが問題となっております。本調査は、メディア報道が保健医療従事者に注目する中、日々ご活躍の保健師の皆様が業務に対してどのような気持ちや印象を抱いているのかについてお尋ねします。</br>全国の保健師の方々を対象に、回答者の方々に本アンケートをご紹介いただきながら配布されています。そのため、同じ方に複数回届く可能性がございますこと、あらかじめお詫び申し上げます。</br><b>本調査の結果は、保健師の方々にとっての安全で充実した職場を考える大切な基礎資料とします。</br>ご協力の程よろしくお願いいたします。</b></p>
     <p class="ex1">以降で、業務の満足度やストレス、みなさまの持っているイメージについてお伺いします。また、メディアの報道記事を提示して、それに対するお気持ちをお伺いすることもいたします。回答時間はおよそ１０分です。</p>
-    <button class="button1" type=“button” onclick="location.href='Page_1.html'">はじめる</button>
+
+    <div class="button"><a href="" class="btn btn--orange">はじめましょう</a></div>
+
 </div>
 
 
@@ -33,8 +35,14 @@ body {
   background-size: cover;
 }
 
+div{
+  font-size:20px;
+}
+
 h1 {
+  font-size:2em;
   text-align: center;
+  padding-top: 40px;
 }
 
 .wrapper {
@@ -47,10 +55,53 @@ h1 {
 }
 
 .ex1{
-  font-size:16px;
+  font-size:1em;
   line-height:2;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.button {
+ display: block;/*コレ*/
+ width: 30%;/*コレ*/
+ margin:auto;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1em; <!--サイズ確認-->
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1em 4em;
+  margin-top:1em;
+  margin-bottom:2em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5em;
+}
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #a79a61;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #a79a61;
 }
 </style>
 
