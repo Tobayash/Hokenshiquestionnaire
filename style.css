@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  src: url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+}
+
+body {
+  background-image: url("anais-murith-yvCIZ3jX62I-unsplash-ver2.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(249,231,191);
+}
+
+button.button1{
+  font-size: 1.25em;
+  color: rgb(194,165,121);  
+  padding: 0.625em 3.125em;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  top: 45%;
+  left: 10%;
+  background-color: rgb(95,70,40);
+  border-style: none;
+}
